@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\static\loginstyle.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <div class="left">
+                
+            </div>
+            <div class="right">
+                <form action="/{{ USER }}" method="POST" id="login-form">
+                    <div class="username">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username">
+                    </div>
+                    <br>
+                    <div class="password">
+                        <label for="pass">Password:</label>
+                        <input type="password" id="pass" name="password" minlength="8" required>
+                    </div>
+                    <br>
+                    <div class="error-message">
+                        {% for message in get_flashed_messages() %}
+                            {{ message }}
+                        {% endfor %}
+                    </div>
+                    <div class="sign-in">
+                        <input type="submit" value="Sign-in">
+                    </div>
+                </form>   
+                <br>       
+                <div class="signup">
+                    <a href="{{ url_for('register') }}">Sign-up</a>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+</body>
+</html>

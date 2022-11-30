@@ -1,0 +1,42 @@
+.conatiner
+{
+    background: #6a3093;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a044ff, #6a3093); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    width: auto;
+}
+.login-box
+{
+    
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: grid;
+    height: 25%;
+    width: 25%;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    text-align: center;
+    align-content: center;
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.username
+{
+    font-size: medium;
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); 
+}
+a
+{
+    color: azure;
+    font-style: italic;
+}
+label
+{
+    color: azure;
+}

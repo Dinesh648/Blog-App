@@ -1,0 +1,23 @@
+*
+{
+    background-color: ;
+}
+
+.container{
+    display: flex;
+    height : 200px;
+    width : 400px;
+    background-color: aquamarine;
+}
+.login-box{
+    margin: 10px;
+}
+.username{
+    margin: 10px;
+}
+.password{
+    margin: 10px;
+}
+.sign-in{
+    margin: 20px;
+}
